@@ -1,14 +1,6 @@
-number = input("Please enter a number from 1 to 10:") 
+number = input("Write a number: ")
 
-if number == 1:
-    print "The number is odd"
-elif number == 4:
-    print "The number is even"
-elif number == 2:
-    print "The number is even"
-elif number == 7:
-    print "The number is odd"
-elif number == 10:
-    print "The number is even"
+if number%2 == 0:
+    print "Your number is even"
 else:
-    print "The number is odd"
+    print 'Your number is odd"
